@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.example.android.spotdora.MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/daniel_playlist"
+        android:text="@string/daniel"
+        style="@style/playlistStyle"
+        android:background="#263238"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/delana_playlist"
+        android:text="@string/delana"
+        style="@style/playlistStyle"
+        android:background="#37474F"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/emily_playlist"
+        android:text="@string/emily"
+        style="@style/playlistStyle"
+        android:background="#455A64"/>
+
+
+</LinearLayout>
